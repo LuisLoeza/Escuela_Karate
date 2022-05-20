@@ -7,6 +7,7 @@
     <title>Contactanos</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="imagenes/logo.png">
+    <!-- <link rel="stylesheet" type="text/css" href="./style.css" /> -->
 </head>
 <body>
     <?php
@@ -36,9 +37,11 @@
     </div>
     <?php
         include "ubicacion.php";
+        
     ?>
     <?php
         include "footer.php";
     ?>
+    
 </body>
 </html>

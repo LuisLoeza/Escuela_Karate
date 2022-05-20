@@ -77,5 +77,9 @@
             <a href="index.php" id="textocabecera4">INICIO</a>
             <a href="index.php?c=Clases" class="textocabecera3">VUELVETE KARATECA</a>
             <a href="index.php?c=Consultas&a=contactanos" class="textocabecera3">CONTACTANOS</a>
+<?php
+include  "whatsapp.php";
+?>
+
         </div>
     </div>
