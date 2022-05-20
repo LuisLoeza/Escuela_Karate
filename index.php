@@ -27,6 +27,6 @@
       $controlador->$accionTmp();
     }
   
-  
+  include "views/escuela/whatsapp.php"
     
 ?>

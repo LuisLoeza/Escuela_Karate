@@ -22,6 +22,15 @@ class ClasesController {
         $dat["profes"] = $profes->get_profesores();
         require_once "views/escuela/clase.php";
     }
+    
+    public function inscripcion(){
+        $clases = new Clases_model();
+        $data["titulo"] = "clases";
+        $profes = new Profesores_model();
+        $data["clases"] = $clases->get_clases();
+        $dat["profes"] = $profes->get_profesores();
+        require_once "views/escuela/inscripcion.php";
+    }
 
     public function guardarclase(){
     

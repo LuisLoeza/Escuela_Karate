@@ -75,11 +75,8 @@
             <a href="index.php?c=Profesores" class="textocabecera3">NUESTRO DOJO</a>
             <a href="index.php?c=Consultas&a=karate" class="textocabecera3">EL ARTE MARCIAL</a>
             <a href="index.php" id="textocabecera4">INICIO</a>
-            <a href="index.php?c=Clases" class="textocabecera3">VUELVETE KARATECA</a>
+            <a href="index.php?c=Clases&a=inscripcion" class="textocabecera3">VUELVETE KARATECA</a>
             <a href="index.php?c=Consultas&a=contactanos" class="textocabecera3">CONTACTANOS</a>
-<?php
-include  "whatsapp.php";
-?>
 
         </div>
     </div>
