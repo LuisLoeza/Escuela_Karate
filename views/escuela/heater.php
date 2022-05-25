@@ -77,6 +77,7 @@
             <a href="index.php" id="textocabecera4">INICIO</a>
             <a href="index.php?c=Clases&a=inscripcion" class="textocabecera3">VUELVETE KARATECA</a>
             <a href="index.php?c=Consultas&a=contactanos" class="textocabecera3">CONTACTANOS</a>
+            <a href="views/escuela/api.php" target ="_blank" class="textocabecera3">API ALUMNOS</a>
 
         </div>
     </div>
