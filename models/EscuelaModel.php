@@ -25,6 +25,10 @@ public function insertar($nombre, $apellido, $email, $clase, $sexo, $discapacida
     $resultado = $this->db->query("INSERT INTO alumnos (nombre, apellido, email, clase, sexo, discapacidad) VALUES ('$nombre', '$apellido', '$email', '$clase', '$sexo', '$discapacidad')");
 }
 
+public function actualizar($id, $nombre, $apellido, $email, $clase, $sexo, $discapacidad){
+    $resultado = $this->db->query("UPDATE alumnos SET nombre ='$nombre', apellido ='$apellido', email ='$email', clase ='$clase', sexo = '$sexo', discapacidad = '$discapacidad' WHERE id ='$id'");
+}
+
 public function eliminar($id){
     $resultado = $this->db->query("DELETE FROM alumnos WHERE id = '$id'");
 }
